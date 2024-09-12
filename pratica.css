@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header h1,
+section h1,
+section h2,
+section h3,
+form button,
+.container li a{
+    font-family: "Bungee", sans-serif;
+}
+
+section h2,
+section h3{
+    color: rgb(77, 77, 196);
+}
+
+section h1{
+    color: rgb(9, 9, 148);
+}
+
+header{
+    padding: 25px;
+    background-color: rgb(77, 77, 196);
+    color: beige;
+}
+
+.container li{
+    display: inline;
+    margin-left: 16px;
+}
+
+.container li a{
+    color: beige;
+    text-decoration: none;
+    font-size: 19px ;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 30px;
+}
+
+.container img{
+    margin-right: 30px;
+}
+
+section h1{
+    font-size: 30px;
+}
+
+div h1, div h3, div p{
+    padding: 8px;
+}
+
+div p{
+    font-size: 18px;
+}
+
+#classes div h3{
+    margin-top: 40px;
+}
+
+#classes .container{
+    display: block;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+
+form button{
+    background-color: rgb(9, 9, 148);
+    color: beige;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+input:focus{
+    outline-color: rgb(9, 9, 148);
+}
+
+form button:hover{
+    background-color: rgb(77, 77, 196);
+}
+
+.contat-metods{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bible-study{
+    padding: 55px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.container div{
+    margin-left: 100px;
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(77, 77, 196);
+    color: beige;
+}
+
+.container h2{
+    padding-bottom: 30px;
+}
+
+.social-links  h1{
+    padding-top: 90px;
+}
+
+.social-links h2{
+    padding-top: 60px;
+}
+
+.social-links img{
+    width: 30px;
+    padding-top: 20px;
+    margin-left: 2px;
+}
+
