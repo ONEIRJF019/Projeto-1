@@ -101,6 +101,7 @@ form button{
     color: beige;
     border: none;
     cursor: pointer;
+    transition: background-color 0.4s;
     padding: 20px;
 }
 
