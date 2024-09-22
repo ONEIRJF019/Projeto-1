@@ -8,6 +8,10 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header h1,
 section h1,
 section h2,
